@@ -1,0 +1,76 @@
+body{
+    max-width:100%;
+}
+
+.btn{
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    border: 3px solid gray;
+
+}
+
+.btn1{
+    background-color:lightgray;
+}
+.btn2{
+    background-color: orangered;
+}
+.btn3{
+    background-color: orange;
+
+}
+.btn4{
+    background-color: rgb(104, 161, 142);
+}
+.btn-container{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+    justify-content: center;
+}
+.container-image{
+    margin-top: 100px;
+margin-bottom: 100px;
+}
+.img-container{
+   margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    border-radius: 20px;
+}
+.img{
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+   
+}
+.img:hover{
+    border: 1px solid gainsboro;
+}
+.img-row01{
+    display: flex;
+    flex-direction:column;
+    
+   
+    
+}
+.img-row01 img{
+    height: 250px;    
+} 
+.img-title{
+    color:orange;
+    text-align: center;
+    font-size: 50px;
+}
+.img-massage{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+}
+    
